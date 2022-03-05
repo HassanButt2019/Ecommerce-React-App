@@ -20,7 +20,7 @@ const registerForm = () => <form onSubmit={handleSubmit}>
 onChange={e=>setEmail(e.target.value) } 
 autoFocus
 /> 
-<button type="submit" className="btn btn-raised red">Register</button>
+<button type="submit" className="btn btn-raised">Register.  /{email}</button>
 </form>
 
     return (
