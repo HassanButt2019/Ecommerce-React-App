@@ -4,7 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter} from "react-router-dom";
-import "antd/dist/antd.css"
+import "antd/dist/antd.min.css"
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+ 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
